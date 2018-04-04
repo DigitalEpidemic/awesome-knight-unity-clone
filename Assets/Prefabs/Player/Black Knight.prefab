@@ -207,6 +207,7 @@ GameObject:
   - component: {fileID: 4563566139557284}
   - component: {fileID: 95338667477023822}
   - component: {fileID: 143674359050258596}
+  - component: {fileID: 114139462458093718}
   m_Layer: 0
   m_Name: Black Knight
   m_TagString: Player
@@ -2025,7 +2026,7 @@ Animator:
   m_GameObject: {fileID: 1438387300691542}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 123f7c849b59076418e1222ca0571478, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9f445b1997092a24a8c682ce5ee610f4, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2033,6 +2034,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114139462458093718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1438387300691542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fc1d0a0d7240e44b20f8b3260b358b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137566513644344914
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
