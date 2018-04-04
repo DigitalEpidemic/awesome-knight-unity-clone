@@ -82,7 +82,7 @@ public class PlayerMove : MonoBehaviour {
 
 			playerMove = transform.forward * moveSpeed * Time.deltaTime;
 
-			if (Vector3.Distance (transform.position, targetPos) <= 0.5f) {
+			if (Vector3.Distance (transform.position, targetPos) <= 0.1f) {
 				canMove = false;
 			}
 

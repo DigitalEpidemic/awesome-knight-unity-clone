@@ -412,3 +412,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: 89f26cf5f1bfb904aa00debf4702e9c8, type: 3}
+  mousePoint: {fileID: 1577624124141810, guid: f98ab73bc7df2b64bbc6ebd34cc42004, type: 2}
