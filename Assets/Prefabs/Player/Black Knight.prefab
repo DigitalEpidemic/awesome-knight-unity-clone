@@ -225,6 +225,8 @@ GameObject:
   - component: {fileID: 95338667477023822}
   - component: {fileID: 143674359050258596}
   - component: {fileID: 114139462458093718}
+  - component: {fileID: 114328750503238778}
+  - component: {fileID: 114377768273857360}
   m_Layer: 0
   m_Name: Black Knight
   m_TagString: Player
@@ -2074,6 +2076,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93fc1d0a0d7240e44b20f8b3260b358b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114328750503238778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1438387300691542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb878a7f133489c49ac4783166ba5730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fillWaitImage1: {fileID: 0}
+  fillWaitImage2: {fileID: 0}
+  fillWaitImage3: {fileID: 0}
+  fillWaitImage4: {fileID: 0}
+  fillWaitImage5: {fileID: 0}
+  fillWaitImage6: {fileID: 0}
+--- !u!114 &114377768273857360
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1438387300691542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f95139544ef9e36448a7d256f3daf89d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!137 &137566513644344914

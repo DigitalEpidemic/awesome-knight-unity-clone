@@ -92,4 +92,22 @@ public class PlayerMove : MonoBehaviour {
 		} // If canMove
 	} // MovePlayer ();
 
+    public bool FinishedMovement {
+        get {
+            return finishedMovement;
+        }
+        set {
+            finishedMovement = value;
+        }
+    }
+
+    public Vector3 TargetPosition {
+        get {
+            return targetPos;
+        }
+        set {
+            targetPos = value;
+        }
+    }
+
 } // PlayerMove
