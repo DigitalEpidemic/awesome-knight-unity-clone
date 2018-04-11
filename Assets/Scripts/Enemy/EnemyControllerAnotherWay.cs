@@ -61,6 +61,7 @@ public class EnemyControllerAnotherWay : MonoBehaviour {
             } else {
                 navAgent.isStopped = true;
 
+                anim.SetBool ("Walk", false);
                 anim.SetBool ("Run", false);
 
                 Vector3 targetPosition = new Vector3 (playerTarget.position.x, transform.position.y, playerTarget.position.z);

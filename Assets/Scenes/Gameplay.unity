@@ -2391,6 +2391,16 @@ Prefab:
       propertyPath: walkPoints.Array.data[2]
       value: 
       objectReference: {fileID: 1017115010}
+    - target: {fileID: 114555133498579832, guid: e7c71f23eac81ae4d82317f7110d4035,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114482170566784986, guid: e7c71f23eac81ae4d82317f7110d4035,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7c71f23eac81ae4d82317f7110d4035, type: 2}
   m_IsPrefabParent: 0
