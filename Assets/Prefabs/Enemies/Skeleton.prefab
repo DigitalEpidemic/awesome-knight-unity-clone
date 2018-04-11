@@ -51,6 +51,8 @@ GameObject:
   - component: {fileID: 4318667908558696}
   - component: {fileID: 95757101143100096}
   - component: {fileID: 143323168097830952}
+  - component: {fileID: 195999941628352490}
+  - component: {fileID: 114555133498579832}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: Enemy
@@ -1399,6 +1401,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114555133498579832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086101753902016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0722c6b7505a1f4fa9d0e72188aea67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137006757856047290
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1603,3 +1616,24 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 1.03, z: 0}
+--- !u!195 &195999941628352490
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086101753902016}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.19
+  m_Speed: 2
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 360
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: -0.09
+  m_WalkableMask: 1
+  m_ObstacleAvoidanceType: 4
