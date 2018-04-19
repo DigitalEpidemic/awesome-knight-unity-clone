@@ -54,6 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4290743006378474}
   - component: {fileID: 114910722042680736}
+  - component: {fileID: 114350632743636090}
   m_Layer: 0
   m_Name: Fire Tornado
   m_TagString: Untagged
@@ -292,6 +293,24 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114350632743636090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498625563617044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780bbbcb33dfdf84793807be38d48c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  radius: 1
+  damageCount: 20
+  fireExplosion: {fileID: 1295225198179992, guid: 6890533e0b7794915a8cbfad0a40702c,
+    type: 2}
 --- !u!114 &114910722042680736
 MonoBehaviour:
   m_ObjectHideFlags: 1
