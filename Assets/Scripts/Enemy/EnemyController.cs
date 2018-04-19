@@ -44,12 +44,14 @@ public class EnemyController : MonoBehaviour {
     private Vector3 whereToNavigate;
 
     // Health script
+    private EnemyHealth enemyHealth;
 
     void Awake () {
         playerTarget = GameObject.FindGameObjectWithTag ("Player").transform;
         navAgent = GetComponent<NavMeshAgent> ();
         charController = GetComponent<CharacterController> ();
         anim = GetComponent<Animator> ();
+        enemyHealth = GetComponent<EnemyHealth> ();
 
         initialPosition = transform.position;
         whereToNavigate = transform.position;
@@ -57,6 +59,9 @@ public class EnemyController : MonoBehaviour {
 
     void Update () {
         // If health is <= 0, set state to death
+        if (enemyHealth.health <= 0f) {
+            enemyCurrentState = EnemyState.DEATH;
+        }
 
         if (enemyCurrentState != EnemyState.DEATH) {
             enemyCurrentState = SetEnemyState (enemyCurrentState, enemyLastState, enemyToPlayerDistance);

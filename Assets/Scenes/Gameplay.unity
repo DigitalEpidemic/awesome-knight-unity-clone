@@ -2408,6 +2408,16 @@ Prefab:
       propertyPath: walkPoints.Array.data[2]
       value: 
       objectReference: {fileID: 1017115010}
+    - target: {fileID: 114482170566784986, guid: e7c71f23eac81ae4d82317f7110d4035,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114555133498579832, guid: e7c71f23eac81ae4d82317f7110d4035,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7c71f23eac81ae4d82317f7110d4035, type: 2}
   m_IsPrefabParent: 0
@@ -3647,6 +3657,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: 89f26cf5f1bfb904aa00debf4702e9c8, type: 3}
   mousePoint: {fileID: 1577624124141810, guid: f98ab73bc7df2b64bbc6ebd34cc42004, type: 2}
+--- !u!1 &1862848850 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1086101753902016, guid: e7c71f23eac81ae4d82317f7110d4035,
+    type: 2}
+  m_PrefabInternal: {fileID: 1276186662}
+--- !u!114 &1862848858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1862848850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd5f006a8d5489469ad9bfea3beac6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
 --- !u!1 &2007958500
 GameObject:
   m_ObjectHideFlags: 0

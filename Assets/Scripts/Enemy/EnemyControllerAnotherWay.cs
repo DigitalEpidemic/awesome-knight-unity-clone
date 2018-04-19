@@ -21,13 +21,30 @@ public class EnemyControllerAnotherWay : MonoBehaviour {
 
     private Vector3 nextDestination;
 
+    private EnemyHealth enemyHealth;
+
     void Awake () {
         playerTarget = GameObject.FindGameObjectWithTag ("Player").transform;
         anim = GetComponent<Animator> ();
         navAgent = GetComponent<NavMeshAgent> ();
+        enemyHealth = GetComponent<EnemyHealth> ();
     }
 
     void Update () {
+        if (enemyHealth.health > 0f) {
+            MoveAndAttack ();
+
+        } else {
+            anim.SetBool ("Death", true);
+            navAgent.enabled = false;
+
+            if (!anim.IsInTransition (0) && anim.GetCurrentAnimatorStateInfo (0).IsName ("Death") && anim.GetCurrentAnimatorStateInfo (0).normalizedTime >= 0.95f) {
+                Destroy (gameObject, 2f);
+            }
+        }
+    }
+
+    void MoveAndAttack () {
         float distance = Vector3.Distance (transform.position, playerTarget.position);
 
         if (distance > walkDistance) {
