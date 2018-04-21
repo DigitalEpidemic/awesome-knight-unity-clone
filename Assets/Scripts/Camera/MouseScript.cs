@@ -12,7 +12,13 @@ public class MouseScript : MonoBehaviour {
 	public GameObject mousePoint;
 	private GameObject instantiatedMouse;
 
-	void Update () {
+    private PlayerMove playerMove;
+
+    void Awake () {
+        playerMove = GameObject.Find ("Black Knight").GetComponent<PlayerMove> ();
+    }
+
+    void Update () {
 		Cursor.SetCursor (cursorTexture, hotSpot, mode);
 
 		if (Input.GetMouseButtonUp (0)) {
@@ -24,14 +30,16 @@ public class MouseScript : MonoBehaviour {
 					Vector3 temp = hit.point;
 					temp.y = 0.25f;
 
-					if (instantiatedMouse == null) {
-						instantiatedMouse = Instantiate (mousePoint) as GameObject;
-						instantiatedMouse.transform.position = temp;
-					} else {
-						Destroy (instantiatedMouse);
-						instantiatedMouse = Instantiate (mousePoint) as GameObject;
-						instantiatedMouse.transform.position = temp;
-					}
+                    if (playerMove.FinishedMovement) {
+                        if (instantiatedMouse == null) {
+                            instantiatedMouse = Instantiate (mousePoint) as GameObject;
+                            instantiatedMouse.transform.position = temp;
+                        } else {
+                            Destroy (instantiatedMouse);
+                            instantiatedMouse = Instantiate (mousePoint) as GameObject;
+                            instantiatedMouse.transform.position = temp;
+                        }
+                    }
 				}
 			}
 		}
