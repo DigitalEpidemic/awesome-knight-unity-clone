@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 114273700877096942}
   - component: {fileID: 114454797630606236}
   - component: {fileID: 114932689393298948}
+  - component: {fileID: 114072101805178790}
+  - component: {fileID: 114479412613482448}
   m_Layer: 8
   m_Name: Skeleton Boss
   m_TagString: Boss
@@ -1690,6 +1692,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114072101805178790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee69055b14c31dd418250f8bba2a73aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossFire: {fileID: 1921226214802806, guid: 3809a810cd8104c2298ed6df026d4e23, type: 2}
+  bossMagic: {fileID: 1623750204401448, guid: 1319d9c3877eb41218bfb2b89a7d7276, type: 2}
 --- !u!114 &114214301063917440
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1761,6 +1776,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dca716a458f18342955792092f9dd0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114479412613482448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd5f006a8d5489469ad9bfea3beac6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 15
 --- !u!114 &114802330765692408
 MonoBehaviour:
   m_ObjectHideFlags: 1

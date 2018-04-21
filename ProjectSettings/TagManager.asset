@@ -8,6 +8,7 @@ TagManager:
   - explosion
   - Enemy
   - MousePointer
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - 
   - 
   - Enemy
-  - 
+  - Player
   - 
   - 
   - 
