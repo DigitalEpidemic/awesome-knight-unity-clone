@@ -10,19 +10,19 @@ LEFT MOUSE BUTTON | Move
 ALPHA1 | Ground Stomp Attack  
 ALPHA2 | Kick Attack
 ALPHA3 | Fire Tornado Attack
-ALPHA4 | Fire Shield (Invincible for 3 seconds)
+ALPHA4 | Fire Shield (Invincible For 3 Seconds)
 ALPHA5 | Heal (+20 HP)
 ALPHA6 | Lightning Attack
-SPACEBAR | Turn to face cursor
+SPACEBAR | Turn To Face Cursor
 
 # What Was Learned From This Game?
 - Artificial Intelligence
-     - Basic (Patrolling between 3 walk points)
-     - Advanced (Nav Mesh Pathfinding/Object avoidance)
+     - Basic (Patrolling Between 3 Walk Points)
+     - Advanced (Nav Mesh Pathfinding/Object Avoidance)
 - Character Animations
      - Basic (Imported 3D Model Animations)
      - Advanced (Animation Events)
-- Sound Effects And Background Music
+- Sound Effects
 - Basic, Intermediate And Advanced Particle Effects
 - Lighting And Skyboxes
 - Melee Battle System
@@ -35,7 +35,7 @@ SPACEBAR | Turn to face cursor
      - Skill Icons/Wait Times
      - Mouse Pointer
      - Enemy Floating Health Bars
-          - Always faces the Main Camera (CameraFacingBillboard)
+          - Always Faces The Main Camera (CameraFacingBillboard)
 - Terrain Building
 
 # Known Issues/TODO List
