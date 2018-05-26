@@ -38,6 +38,15 @@ SPACEBAR | Turn To Face Cursor
           - Always Faces The Main Camera (CameraFacingBillboard)
 - Terrain Building
 
+
+# Screenshots
+Gameplay | Ground Stomp Attack  | Fire Tornado Attack
+:------: | :------------------: | :-----------------:
+<img src="/Screenshots/Gameplay.png"> | <img src="/Screenshots/Skill1.png"> | <img src="/Screenshots/Skill3.png">
+**Fire Shield** | **Lightning Attack** | **Boss and Enemy**
+<img src="/Screenshots/Skill4.png"> | <img src="/Screenshots/Skill6.png"> | <img src="/Screenshots/Enemies.png">
+
+
 # Known Issues/TODO List
 - [x] ~~Enemies attack animations facing off to the side~~
 - [x] ~~Mouse Pointer not disappearing when attacking mid-travel~~
